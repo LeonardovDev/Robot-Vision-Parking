@@ -5,10 +5,8 @@ Computational Introduction to Robotics Final Project: Neato autonomous parking
 ![perpendicular](auto_parking/imgs/perpendicular.gif)
 ![manual](auto_parking/imgs/manual.gif)
 
-Authors: [@kimasenbeck](https://github.com/kimasenbeck), [@jovanduy](https://github.com/jovanduy), [@ziyilan](https://github.com/Ziyilan)
+Authors: [@LeonV](https://github.com/LeonardovDev)
 
-
-We have created a full parking assist system for the Neato. This system allows the user to choose from a number of different parking modes: autonomous parallel parking, autonomous perpendicular parking, or a manual parking mode with visual parking guidelines. This suite of features is modeled after the parking assist features found in modern cars. Our implementation is inspired by the state-of-the-art algorithms which underlie parallel parking mechanisms. For more information and demos, check out our [project website](https://ziyilan.github.io/)!
 
 ## Implementation
 ### Autonomous Parking
@@ -60,9 +58,3 @@ First, run `roscore` and connect to a Neato.
 - Parallel parking: `rosrun auto_parking parking.py _parallel:=False`
 - For manual parking assist, run `rosrun teleop_twist teleop_twist` to enter into teleop twist mode to access control over the Neato. To open the assist, run `rosrun auto_parking manual_parking.py`
 
-
-## References
-- Path Planning and Steering Control for an Automatic Perpendicular Parking Assist System; Plamen Petrov, Fawzi Nashashibi, Member, IEEE, and Mohamed Marouf
-http://ppniv15.irccyn.ec-nantes.fr/material/session3/Petrov/paper.pdf
-- Autonomous Parallel Parking of a Nonholonomic Vehicle; Lisa Sullivan, Christopher Wiens, Mun Hoe Sze Tho, Trenton Palm, and Joel A. Hesch
-http://www-users.cs.umn.edu/~joel/_files/Joel_Hesch_EE4951.pdf
